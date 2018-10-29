@@ -3,7 +3,7 @@
  */
 package com.tutorial.sample.number;
 
-import org.apache.log4j.Logger;
+//import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,7 +15,7 @@ import org.junit.Test;
  */
 public class NumberSampleTest {
 	
-	private static Logger logger = Logger.getLogger(NumberSampleTest.class);
+//	private static Logger logger = Logger.getLogger(NumberSampleTest.class);
 	NumberSample numSample;
 	
 	@Before
@@ -32,7 +32,7 @@ public class NumberSampleTest {
 		int secondNumber = 10;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
-		logger.info("actual:: TC1:: "+ actual);
+		System.out.println("actual:: TC1:: "+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -45,7 +45,7 @@ public class NumberSampleTest {
 		int secondNumber = 20;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
-		logger.info("actual:: TC2::"+ actual);
+		System.out.println("actual:: TC2::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -58,7 +58,7 @@ public class NumberSampleTest {
 		int secondNumber = 30;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
-		logger.info("actual:: TC3::"+ actual);
+		System.out.println("actual:: TC3::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -71,7 +71,7 @@ public class NumberSampleTest {
 		int secondNumber = 30;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
-		logger.info("actual:: TC4::"+ actual);
+		System.out.println("actual:: TC4::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -84,7 +84,7 @@ public class NumberSampleTest {
 		int secondNumber = -30;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
-		logger.info("actual:: TC5::"+ actual);
+		System.out.println("actual:: TC5::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -97,7 +97,7 @@ public class NumberSampleTest {
 		int secondNumber = -30;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
-		logger.info("actual:: TC6::"+ actual);
+		System.out.println("actual:: TC6::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 
