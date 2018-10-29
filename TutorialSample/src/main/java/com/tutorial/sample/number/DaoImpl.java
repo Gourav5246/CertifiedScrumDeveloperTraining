@@ -9,6 +9,7 @@ package com.tutorial.sample.number;
  */
 public class DaoImpl {
 
+	//Empty method
 	public UserInfo getStoredInfo(UserInfo userInfo) {
 		// TODO Auto-generated method stub
 		return userInfo;
