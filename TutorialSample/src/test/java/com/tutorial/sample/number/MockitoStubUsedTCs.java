@@ -16,7 +16,6 @@ import org.junit.Test;
  */
 public class MockitoStubUsedTCs {
 
-	
 	DaoImpl daoImpl;
 	UserInfo userInfo;
 	UserInfo storedUserInfo;
