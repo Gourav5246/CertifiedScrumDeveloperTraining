@@ -30,6 +30,7 @@ public class NumberSampleTest {
 		int secondNumber = 10;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
+		System.out.println("actual:: TC1:: "+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -42,6 +43,7 @@ public class NumberSampleTest {
 		int secondNumber = 20;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
+		System.out.println("actual:: TC2::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -54,6 +56,7 @@ public class NumberSampleTest {
 		int secondNumber = 30;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
+		System.out.println("actual:: TC3::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -66,6 +69,7 @@ public class NumberSampleTest {
 		int secondNumber = 30;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
+		System.out.println("actual:: TC4::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -78,6 +82,7 @@ public class NumberSampleTest {
 		int secondNumber = -30;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
+		System.out.println("actual:: TC5::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 	
@@ -90,6 +95,7 @@ public class NumberSampleTest {
 		int secondNumber = -30;
 		
 		actual = numSample.getGreaterNumber(firstNumber, secondNumber);
+		System.out.println("actual:: TC6::"+ actual);
 		Assert.assertEquals(expectedValue, actual);
 	}
 
