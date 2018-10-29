@@ -12,7 +12,7 @@ public class NumberSample {
 	public int getGreaterNumber(int firstNumber, int secondNumber) {
 		int actual = 0;
 		
-		if(firstNumber > secondNumber) {
+		if(firstNumber < secondNumber) {
 			return firstNumber;
 		} else {
 			return secondNumber;
